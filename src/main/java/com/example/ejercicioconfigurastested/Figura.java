@@ -2,8 +2,12 @@ package com.example.ejercicioconfigurastested;
 
 import com.example.ejercicioconfigurastested.Circulo;
 import com.example.ejercicioconfigurastested.Cuadrado;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 public abstract class Figura {
+
 
     protected Double perimetro;
     protected Double area;

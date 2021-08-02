@@ -1,5 +1,12 @@
 package com.example.ejercicioconfigurastested;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class Cuadrado extends Figura {
 
 
