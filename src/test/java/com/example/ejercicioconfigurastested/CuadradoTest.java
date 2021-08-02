@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CuadradoTest {
 
     @Test
-    public void puedeCalcularBienElPerimetro(){
+    public void puedeCalcularBienElPerimetroDelCuadrado(){
 
         //Arrange
         Double lado = 15.0;
@@ -27,7 +27,7 @@ public class CuadradoTest {
     }
 
     @Test
-    public void puedeCalcularBienElArea(){
+    public void puedeCalcularBienElAreaDelCuadrado(){
 
         //Arrange
         Double lado = 18.5;
